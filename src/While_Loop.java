@@ -35,6 +35,8 @@ Create a program that takes a number from input and output the factorial of that
         int factorial=1;
         for(int y=1;y<=x;y++){
             factorial*=y;
+            System.out.println(y);
+
 
         }
         System.out.println(factorial);
